@@ -1,10 +1,10 @@
-# Lab 09: Navigate Jira Service Management and Create Your First Issue
+# Navigate Jira Service Management and Create Your First Issue
 
 > **Author:** Nnamso Mkpong
 >
-> **Domain:** Jira Service Management — Ticket Creation, Queue Management, Agent Workflow
+> **Domain:** Jira Service Management - Ticket Creation, Queue Management, Agent Workflow
 >
-> **Environment:** Jira Service Management free tier — nnamsotechie.atlassian.net — Support project (SUP)
+> **Environment:** Jira Service Management free tier - nnamsotechie.atlassian.net - Support project (SUP)
 >
 > **Completed:** April 2026
 
@@ -18,7 +18,7 @@ Set up a free Jira Service Management workspace, explore both the agent view and
 
 ## Business Scenario
 
-> **New Platform Orientation — April 9, 2026**
+> **New Platform Orientation - April 9, 2026**
 >
 > Your company has just migrated from email-based ticketing to Jira Service Management. You are the first analyst to be trained on the platform. Before you take your first live call, your team lead asks you to log a test issue, explore the queue, update the ticket fields, add both types of comments, and confirm you can move a ticket through the workflow without assistance. Everything must be evidenced before you go live.
 
@@ -38,72 +38,40 @@ Set up a free Jira Service Management workspace, explore both the agent view and
 
 ---
 
-## JSM Architecture: Agent View vs Customer Portal
-
-> **JSM separates the user experience from the analyst experience by design. Understanding this separation is the foundation of every workflow in the platform.**
-
-```
-CUSTOMER PORTAL
-  portal.atlassian.net/servicedesk/...
-  User fills in a request form and sees: confirmation, updates, replies
-  User does NOT see: internal notes, SLA timers, assignee changes
-       │
-       ▼
-JIRA AGENT QUEUE
-  atlassian.net/jira/servicedesk/projects/SUP/queues
-  Agent sees: full ticket detail, internal notes, SLA, priority, assignee
-  Agent can: add internal notes (yellow) or reply to customer (white)
-  Agent can: change status, assign, set priority, link issues
-       │
-       ▼
-WORKFLOW STATES
-  Waiting for Support → In Progress → Waiting for Customer → Resolved → Closed
-```
-
-The separation between internal notes and customer replies is a security and professionalism boundary. An analyst can write diagnostic notes, device names, error codes, and escalation reasoning internally without the user seeing any of it.
-
----
-
 ## Steps Performed
 
 ---
 
-### Phase 1 — Explore the Agent View Baseline
+### Phase 1 - Explore the Agent View Baseline
 
-**Step 1.1 — Open the Agent Queue and Record the Empty State**
+**Step 1.1 - Open the Agent Queue and Record the Empty State**
 
 Log in to Jira Service Management and navigate to the Support project. Click Queues in the left sidebar then All open. Before any tickets are created, the queue is empty.
 
-![02 Agent view — All open queue empty before first ticket](screenshots/02_agent_queue_empty_baseline_annotated.png)
+<img width="1365" height="720" alt="02 Agent view dashboard" src="https://github.com/user-attachments/assets/eacbda8c-2554-4277-97fe-799dccd0dbfe" />
 
-> **Highlighted:** The All open queue shows zero items. The left sidebar confirms the full navigation structure: Queues, Service requests, Incidents, Journeys, Operations, and Knowledge Base. This is the primary working interface for every support analyst on the platform.
+
+
+> **Highlighted:** The All open queue shows zero items. The left sidebar confirms the full navigation structure which is the Queues, Service requests, Incidents, Journeys, Operations, and Knowledge Base. This is the primary working interface for every support analyst on the platform.
 
 ---
 
-### Phase 2 — Create the First Issue
+### Phase 2 - Create the First Issue
 
-**Step 2.1 — Submit a Test Request via the Create Form**
+**Step 2.1 - Submit a Test Request via the Create Form**
 
 Click the blue Create button and complete the issue creation form with a realistic IT support scenario.
 
-![01 Create issue form — Project, Type, Summary, and Description](screenshots/01_create_issue_form_annotated.png)
+<img width="600" height="508" alt="01 Create issue form" src="https://github.com/user-attachments/assets/ac59acd7-6108-45a1-b424-a018ae6c2462" />
 
-Issue creation fields completed:
-
-| Field | Value |
-|---|---|
-| Project | Support (SUP) |
-| Type | Get IT help |
-| Summary | Laptop cannot connect to company Wi-Fi |
-| Description | My laptop will not connect to the company Wi-Fi after this morning's Windows update |
 
 > **Highlighted:** Project routes the issue to the correct team. Type determines the SLA that applies. Summary is the first thing an agent reads in the queue. Description provides the diagnostic context needed before the first investigation step.
 
 ---
 
-### Phase 3 — Locate the Issue in the Agent Queue
+### Phase 3 - Locate the Issue in the Agent Queue
 
-**Step 3.1 — Confirm SUP-1 Appears in All Open Queue**
+**Step 3.1 - Confirm SUP-1 Appears in All Open Queue**
 
 Return to Queues > All open. The new issue appears as 1 work item.
 
