@@ -1,4 +1,4 @@
-<img width="1135" height="598" alt="01 open task queue basline" src="https://github.com/user-attachments/assets/8c7a8e13-3895-482d-a56f-6460b8626ef4" /><img width="1135" height="598" alt="01 open task queue basline" src="https://github.com/user-attachments/assets/087af22e-6a0e-4882-9d66-4d7e83b74f50" /># Manage Queues, Priorities, and SLA Targets in Jira
+# Manage Queues, Priorities, and SLA Targets in Jira
 
 > **Author:** Nnamso Mkpong
 >
