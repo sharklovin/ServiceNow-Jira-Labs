@@ -176,7 +176,8 @@ Open SUP-10 (Software installation request with Priority: Medium). Additional in
 
 Open SUP-11 (Password reset request with Priority: Low). This issue is straightforward and can be resolved in one session. Add investigation notes, send a resolution reply to the customer, and change the status to Resolved.
 
-![08 SUP-11 Resolved — both comment types, Done badge, SLA within target](screenshots/08_issue_resolved_end_to_end_annotated.png)
+<img width="1090" height="591" alt="08 Issue resolved end to end" src="https://github.com/user-attachments/assets/aba9819b-6c10-451b-bb32-99ed7811ca6a" />
+
 
 Actions taken on SUP-11:
 
@@ -184,7 +185,7 @@ Actions taken on SUP-11:
 |---|---|
 | Status | Changed to **Resolved** |
 | Done badge | Confirmed |
-| Priority | Low — confirmed correct |
+| Priority | Low (confirmed correct) |
 | SLA: Time to first response | Apr 15 09:12 AM (within 16h) |
 | SLA: Time to resolution | Apr 22 01:12 PM (within 60h) |
 | Customer reply | Your password has been reset. Please confirm everything is working correctly. |
@@ -194,33 +195,24 @@ Actions taken on SUP-11:
 
 ---
 
-### Phase 9 — Review the Final Queue State
+### Phase 9 - Review the Final Queue State
 
-**Step 9.1 — Confirm All Five Issues Have Correct Statuses**
+**Step 9.1 - Confirm All Five Issues Have Correct Statuses**
 
 Return to the full queue view and confirm each of the five issues shows the correct status reflecting all triage actions taken in this session.
 
-![09 Final queue — all five issues with correct statuses after triage](screenshots/09_final_queue_status_summary_annotated.png)
+<img width="1076" height="335" alt="09 final queue status summary" src="https://github.com/user-attachments/assets/aaadb0f3-3e07-40e2-b4a4-d40ebc21d909" />
 
-Final queue state:
 
-| Key | Summary | Assignee | Status | Triage Action |
-|---|---|---|---|---|
-| SUP-11 | Password reset request | Nnamso Mkpong | **RESOLVED** | Worked end to end — user confirmed |
-| SUP-10 | Software installation request | Nnamso Mkpong | **WAITING FOR CUSTOMER** | On hold — SLA paused, awaiting info |
-| SUP-9 | Printer offline | Nnamso Mkpong | **WAITING FOR SUPPORT** | Scheduled for afternoon — workaround available |
-| SUP-8 | Outlook not syncing | Nnamso Mkpong | **WAITING FOR SUPPORT** | Triaged — within SLA target |
-| SUP-7 | User locked out of laptop | Nnamso Mkpong | **IN PROGRESS** | Actioned immediately — Highest priority, no workaround |
-
-> **Highlighted:** Every status badge in the final queue reflects a deliberate triage decision. SUP-11 is RESOLVED. SUP-10 is WAITING FOR CUSTOMER with SLA paused. SUP-9 and SUP-8 are WAITING FOR SUPPORT with internal notes recording their scheduled order. SUP-7 is IN PROGRESS as the highest-priority blocked user. All five issues are now assigned to Nnamso Mkpong — no tickets remain unowned after the triage session.
+> **Highlighted:** Every status badge in the final queue reflects a deliberate triage decision. SUP-11 is RESOLVED. SUP-10 is WAITING FOR CUSTOMER with SLA paused. SUP-9 and SUP-8 are WAITING FOR SUPPORT with internal notes recording their scheduled order. SUP-7 is IN PROGRESS as the highest-priority blocked user. All five issues are now assigned to Nnamso Mkpong with no tickets remain unowned after the triage session.
 
 ---
 
 ## Business Impact Note
 
-> **Queue management is not a technical skill — it is a professional discipline. The difference between a good analyst and a great analyst is often visible in the queue at handover.**
+> **Queue management is not a technical skill but professional discipline. The difference between a good analyst and a great analyst is often visible in the queue at handover.**
 
-A queue where every ticket has an internal note explaining its current status, a correct priority, and an assigned owner is a queue that any colleague can pick up at shift change without a briefing. A queue with unassigned tickets, no notes, and incorrect priorities is a liability — SLA breaches happen not because the work is too hard but because no one knew which ticket needed attention first.
+A queue where every ticket has an internal note explaining its current status, a correct priority, and an assigned owner is a queue that any colleague can pick up at shift change without a briefing. A queue with unassigned tickets, no notes, and incorrect priorities is a liability. SLA breaches happen not because the work is too hard but because no one knew which ticket needed attention first.
 
 Sorting by SLA deadline rather than by creation time is the single most impactful habit change for a new analyst. It ensures that the ticket closest to breach is always visible at the top of the working list, regardless of how many other tickets arrived first.
 
@@ -232,9 +224,9 @@ The Waiting for Customer state demonstrates another critical discipline: when a 
 
 See the individual ticket files in this folder for the full five-ticket triage log:
 
-`TICKET-SUP7-user-locked-out.md` — Highest priority, In Progress, immediate action.
+`TICKET-SUP7-user-locked-out.md` - Highest priority, In Progress, immediate action.
 
-`TICKET-QUEUE-TRIAGE-LOG.md` — Full morning triage session log covering all five issues.
+`TICKET-QUEUE-TRIAGE-LOG.md` - Full morning triage session log covering all five issues.
 
 ---
 
@@ -243,14 +235,14 @@ See the individual ticket files in this folder for the full five-ticket triage l
 | Check | Result |
 |---|---|
 | Five issues created across all priority tiers | Pass |
-| SLA configuration reviewed — all priority targets confirmed | Pass |
+| SLA configuration reviewed - all priority targets confirmed | Pass |
 | Queue sorted by SLA time to resolution ascending | Pass |
-| SUP-7 (Highest) identified as most urgent — earliest deadline | Pass |
+| SUP-7 (Highest) identified as most urgent - earliest deadline | Pass |
 | SUP-7 moved to In Progress with customer reply and internal note | Pass |
-| SUP-9 (Medium) triaged — workaround noted, scheduled for afternoon | Pass |
-| SUP-10 placed in Waiting for Customer — SLA paused | Pass |
-| SUP-11 resolved end to end — customer reply, internal note, Resolved status | Pass |
-| All five issues assigned — no unowned tickets in queue | Pass |
+| SUP-9 (Medium) triaged - workaround noted, scheduled for afternoon | Pass |
+| SUP-10 placed in Waiting for Customer - SLA paused | Pass |
+| SUP-11 resolved end to end - customer reply, internal note, Resolved status | Pass |
+| All five issues assigned - no unowned tickets in queue | Pass |
 | Final queue reflects all triage decisions at handover | Pass |
 
 ---
@@ -261,19 +253,19 @@ See the individual ticket files in this folder for the full five-ticket triage l
 
 2. **Priority must be confirmed, not assumed.** A ticket created by a user with the wrong priority (or no priority) can sit in the queue with an incorrect SLA target. Triage includes reviewing each ticket's priority and correcting it before the deadline is calculated from the wrong baseline.
 
-3. **The Waiting for Customer state is an SLA management tool, not a workaround.** Placing a ticket on hold pauses the resolution timer. This protects the team's SLA performance on tickets where the delay is the user's responsibility. It also requires documentation — the internal note must explain what information is being awaited and when a follow-up will be sent.
+3. **The Waiting for Customer state is an SLA management tool, not a workaround.** Placing a ticket on hold pauses the resolution timer. This protects the team's SLA performance on tickets where the delay is the user's responsibility. It also requires documentation as the internal note must explain what information is being awaited and when a follow-up will be sent.
 
-4. **Every triage decision must have a comment.** A ticket with no internal note is invisible to the next analyst. A ticket with a clear internal note — even one sentence explaining why it was prioritised or deferred — can be picked up instantly at shift change. This is the difference between a queue that supports the team and a queue that creates confusion.
+4. **Every triage decision must have a comment.** A ticket with no internal note is invisible to the next analyst. A ticket with a clear internal note with even one sentence explaining why it was prioritised or deferred  can be picked up instantly at shift change. This is the difference between a queue that supports the team and a queue that creates confusion.
 
-5. **Resolving a ticket end to end requires three things: investigation, action, and confirmation.** The internal note records what was done. The customer reply communicates the result. The Resolved status closes the SLA timer. All three are required — a ticket that is fixed but not communicated is not resolved from the customer's perspective.
+5. **Resolving a ticket end to end requires three things: investigation, action, and confirmation.** The internal note records what was done. The customer reply communicates the result. The Resolved status closes the SLA timer. All three are required as a ticket that is fixed but not communicated is not resolved from the customer's perspective.
 
 ---
 
 ## Real World Relevance
 
-Queue management under SLA pressure is the daily reality of every service desk analyst. The five-issue morning triage in this lab is a simplified but structurally accurate simulation of what analysts face in large queues. The habits built here — sort by SLA, confirm priority, comment every decision, document on-hold reasons, resolve with a full note — scale directly to queues of 50, 100, or 500 tickets.
+Queue management under SLA pressure is the daily reality of every service desk analyst. The five-issue morning triage in this lab is a simplified but structurally accurate simulation of what analysts face in large queues. The habits built here sort by SLA, confirm priority, comment every decision, document on-hold reasons, resolve with a full note are scale directly to queues of 50, 100, or 500 tickets.
 
-Jira Service Management is used by the majority of technology and scale-up companies because its queue, SLA, and workflow features integrate with the broader Atlassian toolchain. Analysts who can manage a Jira queue confidently — including understanding SLA behaviour in different workflow states — are immediately productive in any organisation using Atlassian tools.
+Jira Service Management is used by the majority of technology and scale-up companies because its queue, SLA, and workflow features integrate with the broader Atlassian toolchain. Analysts who can manage a Jira queue confidently including understanding SLA behaviour in different workflow states  are immediately productive in any organisation using Atlassian tools.
 
 In technical interviews for JSM-based roles, queue triage scenarios are a common assessment. Candidates who can describe the SLA implications of priority, the pause behaviour of Waiting for Customer, and the comment requirements for each status transition demonstrate operational fluency that goes beyond basic platform navigation.
 
@@ -287,5 +279,5 @@ In technical interviews for JSM-based roles, queue triage scenarios are a common
 | Issue priority appears wrong | Open the issue and correct the priority field before actioning | Actioning based on incorrect priority |
 | SLA timer still running while awaiting user | Transition to Waiting for customer to pause the timer | Leaving ticket in In Progress while waiting |
 | Ticket has no internal note | Add a note before changing status or moving to next ticket | Changing status without documenting the reason |
-| SLA target appears too long or too short | Check Project Settings > SLAs — priority may be misconfigured | Assuming the SLA shown is always correct |
+| SLA target appears too long or too short | Check Project Settings > SLAs - priority may be misconfigured | Assuming the SLA shown is always correct |
 | User not notified after resolution | Add a customer reply before changing status to Resolved | Resolving without sending a customer-facing message |
