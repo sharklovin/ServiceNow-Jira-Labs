@@ -34,7 +34,7 @@
 | Assignee | Nnamso Mkpong |
 | Reporter | Nnamso Mkpong |
 | SLA Response Target | Within 4 business hours |
-| SLA Resolution Target | Within 24 business hours — Apr 16 09:09 AM |
+| SLA Resolution Target | Within 24 business hours on Apr 16 Time 09:09 AM |
 | Status | In Progress |
 
 ---
