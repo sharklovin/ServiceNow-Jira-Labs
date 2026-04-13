@@ -1,10 +1,10 @@
-# Lab 10: Manage Queues, Priorities, and SLA Targets in Jira
+<img width="1135" height="598" alt="01 open task queue basline" src="https://github.com/user-attachments/assets/8c7a8e13-3895-482d-a56f-6460b8626ef4" /><img width="1135" height="598" alt="01 open task queue basline" src="https://github.com/user-attachments/assets/087af22e-6a0e-4882-9d66-4d7e83b74f50" /># Manage Queues, Priorities, and SLA Targets in Jira
 
 > **Author:** Nnamso Mkpong
 >
-> **Domain:** Jira Service Management — Queue Management, SLA Awareness, Triage Workflow
+> **Domain:** Jira Service Management  Queue Management, SLA Awareness, Triage Workflow
 >
-> **Environment:** Jira Service Management free tier — nnamsotechie.atlassian.net — Support project (SUP)
+> **Environment:** Jira Service Management free tier, nnamsotechie.atlassian.net, Support project (SUP)
 >
 > **Completed:** April 2026
 
@@ -18,7 +18,7 @@ Configure and work from a Jira queue with five real issues across different prio
 
 ## Business Scenario
 
-> **Morning Triage Session — 13 April 2026**
+> **Morning Triage Session - 13 April 2026**
 >
 > Five support requests have arrived in the queue. All are currently unassigned with status Waiting for Support. You are the first analyst on shift. You need to triage the queue by SLA deadline, confirm each priority is correct, action the most urgent issue immediately, schedule lower-priority work for later in the day, place one ticket on hold while awaiting user information, and close one end to end with a full resolution note. Every action must be logged with a comment so the queue tells a complete story at handover.
 
@@ -31,37 +31,8 @@ Configure and work from a Jira queue with five real issues across different prio
 | **Platform** | Jira Service Management free tier |
 | **Project** | Support (SUP) |
 | **Issues Created** | SUP-7, SUP-8, SUP-9, SUP-10, SUP-11 |
-| **SLA Framework** | Service requests — Highest 24h, High 36h, Medium 48h, Low 60h |
+| **SLA Framework** | Service requests - Highest 24h, High 36h, Medium 48h, Low 60h |
 | **Triage Method** | Sort by Time to resolution ascending |
-
----
-
-## Queue and SLA Triage Stack
-
-> **Effective queue management follows a consistent priority order. Sorting by SLA deadline rather than by creation time ensures the most at-risk tickets are visible first.**
-
-```
-TRIAGE ORDER (Monday morning)
-  Step 1: Sort queue by SLA — Time to resolution ascending
-       │  The issue closest to breach must be worked first
-       ▼
-  Step 2: Review each issue's priority and confirm it is correct
-       │  Priority drives SLA — wrong priority = wrong deadline = breach risk
-       ▼
-  Step 3: Action the Highest priority issue immediately
-       │  P1 (Highest): user blocked, no workaround, SLA = 24h
-       ▼
-  Step 4: Add triage note to each issue
-       │  Every issue must have a comment explaining why it was scheduled
-       ▼
-  Step 5: Place appropriate issues On Hold
-       │  Waiting for Customer pauses the SLA clock
-       ▼
-  Step 6: Resolve one issue end to end
-       │  Investigation note + customer resolution + status = Resolved
-       ▼
-  Review final queue state — all five issues have correct statuses
-```
 
 ---
 
@@ -69,47 +40,42 @@ TRIAGE ORDER (Monday morning)
 
 ---
 
-### Phase 1 — Record the Baseline Queue State
+### Phase 1 - Record the Baseline Queue State
 
-**Step 1.1 — Open the Queue and Confirm the Baseline**
+**Step 1.1 - Open the Queue and Confirm the Baseline**
 
 Navigate to Support > Queues > Open tasks. Before creating any issues, the queue is empty. This is the baseline state before the morning triage session begins.
 
-![01 Open tasks queue — empty baseline before five issues are created](screenshots/01_open_tasks_queue_baseline_annotated.png)
+<img width="1135" height="598" alt="01 open task queue basline" src="https://github.com/user-attachments/assets/88a31529-2604-43b5-9897-d4055629c966" />
 
-> **Highlighted:** The Open tasks queue shows zero items. The filter bar at the top provides Request type, Status, Assignee, and More filters — the tools used throughout the triage session to slice the queue by category. The empty state is the baseline before the five test issues are created.
+
+
+> **Highlighted:** The Open tasks queue shows zero items. The filter bar at the top provides Request type, Status, Assignee, and More filters. The tools used throughout the triage session to slice the queue by category. The empty state is the baseline before the five test issues are created.
 
 ---
 
-### Phase 2 — Create Five Issues Across All Priority Levels
+### Phase 2 - Create Five Issues Across All Priority Levels
 
-**Step 2.1 — Create Five Realistic IT Support Issues**
+**Step 2.1 - Create Five Realistic IT Support Issues**
 
 Create one issue for each priority tier using realistic support scenarios. All five issues land in the Unassigned service requests queue with status Waiting for Support.
 
-![02 Five issues in unassigned queue — SUP-7 through SUP-11, all Waiting for Support](screenshots/02_five_issues_unassigned_queue_annotated.png)
+<img width="1137" height="407" alt="02  5 queqes created" src="https://github.com/user-attachments/assets/1db2ee3a-98ca-455f-9542-52c16ebf8848" />
 
-Five issues created:
 
-| Key | Summary | Priority | SLA Deadline |
-|---|---|---|---|
-| SUP-7 | User locked out of laptop | Highest | Apr 16 09:09 AM |
-| SUP-9 | Printer offline | High | Apr 21 09:11 AM |
-| SUP-8 | Outlook not syncing | High | Apr 17 01:11 PM |
-| SUP-10 | Software installation request | Medium | Apr 21 09:11 AM |
-| SUP-11 | Password reset request | Low | Apr 22 01:12 PM |
 
-> **Highlighted:** Each row is colour-coded by priority. SUP-7 (Highest, red) has the earliest SLA deadline — April 16 — making it the first issue to action. The SLA deadlines in the right column are the primary sort key for triage. All five issues are unassigned and awaiting support — the queue is as it would appear on a Monday morning after a weekend of incoming requests.
+> **Highlighted:** Each row is colour-coded by priority. SUP-7 (Highest, red) has the earliest SLA deadline (April 16) which makes it the first issue to action. The SLA deadlines in the right column are the primary sort key for triage. All five issues are unassigned and awaiting support. the queue is as it would appear on a Monday morning after a weekend of incoming requests.
 
 ---
 
-### Phase 3 — Review the SLA Configuration
+### Phase 3 - Review the SLA Configuration
 
-**Step 3.1 — Examine the SLA Targets Per Priority**
+**Step 3.1 - Examine the SLA Targets Per Priority**
 
 Navigate to Project Settings > SLAs. Review the time-to-resolution targets that apply to each priority level for Service requests.
 
-![03 SLA configuration — Highest 24h, High 36h, Medium 48h, Low 60h, All remaining 72h](screenshots/03_sla_configuration_annotated.png)
+<img width="660" height="313" alt="03 SLA config" src="https://github.com/user-attachments/assets/84d77ba2-38c7-4f04-bc69-6533ced3d1a6" />
+
 
 SLA targets confirmed:
 
@@ -122,7 +88,7 @@ SLA targets confirmed:
 | All remaining | Sample 9-5 Calendar | 72 hours |
 | All remaining work items | Sample 9-5 Calendar | No target |
 
-> **Highlighted:** Every priority tier has a distinct resolution target measured against the Sample 9-5 Calendar (business hours only). This means a Highest priority issue created on Friday at 17:00 has until Monday at 17:00 to be resolved — 24 business hours, not 24 calendar hours. Understanding this distinction prevents analysts from miscalculating breach risk when a ticket arrives on a Friday afternoon.
+> **Highlighted:** Every priority tier has a distinct resolution target measured against the Sample 9-5 Calendar (business hours only). This means a Highest priority issue created on Friday at 17:00 has until Monday at 17:00 to be resolved within 24 business hours, not 24 calendar hours. Understanding this distinction prevents analysts from miscalculating breach risk when a ticket arrives on a Friday afternoon.
 
 ---
 
