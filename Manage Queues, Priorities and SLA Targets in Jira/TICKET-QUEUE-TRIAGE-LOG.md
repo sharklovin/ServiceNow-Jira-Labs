@@ -21,13 +21,13 @@ All five issues were in Waiting for Support status, unassigned, with SLA timers 
 | SUP-10 | Software installation request | Medium | Apr 21 09:11 AM | Low |
 | SUP-11 | Password reset request | Low | Apr 22 01:12 PM | Minimal |
 
-**Triage method used:** Sorted queue by Time to resolution ascending. SUP-7 moved to the top — earliest SLA deadline, actioned first.
+**Triage method used:** Sorted queue by Time to resolution ascending. SUP-7 moved to the top - earliest SLA deadline, actioned first.
 
 ---
 
 ---
 
-## SUP-7 — User Locked Out of Laptop
+## SUP-7 - User Locked Out of Laptop
 
 **Priority:** Highest
 **Status:** In Progress
