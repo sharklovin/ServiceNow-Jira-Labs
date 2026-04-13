@@ -1,4 +1,4 @@
-# Morning Triage Session — Jira Queue Log
+# Morning Triage Session - Jira Queue Log
 
 **Project:** Support (SUP)
 **Date:** 13 April 2026
@@ -34,7 +34,7 @@ All five issues were in Waiting for Support status, unassigned, with SLA timers 
 **SLA:** Time to first response within 4h | Time to resolution within 24h (Apr 16 09:09 AM)
 **Assignee:** Nnamso Mkpong
 
-**Triage decision:** User is completely blocked. No workaround available — cannot log in to any system. Highest priority is confirmed correct. SLA target is 24 hours. Actioning immediately at start of shift.
+**Triage decision:** User is completely blocked. No workaround available - cannot log in to any system. Highest priority is confirmed correct. SLA target is 24 hours. Actioning immediately at start of shift.
 
 **Customer reply sent:**
 
@@ -44,7 +44,7 @@ All five issues were in Waiting for Support status, unassigned, with SLA timers 
 
 > User completely blocked, no workaround. SLA target: 24 hours. Actioning immediately.
 
-**Status:** In Progress — active investigation underway.
+**Status:** In Progress - active investigation underway.
 
 **Next action:** Confirm whether the lockout is an Active Directory account lockout or a BitLocker/hardware issue. If AD lockout: unlock via ADUC, reset password, confirm user can log in. If BitLocker: retrieve recovery key from Azure AD and guide user through entry.
 
@@ -52,7 +52,7 @@ All five issues were in Waiting for Support status, unassigned, with SLA timers 
 
 ---
 
-## SUP-8 — Outlook Not Syncing
+## SUP-8 - Outlook Not Syncing
 
 **Priority:** High
 **Status:** Waiting for Support
@@ -63,7 +63,7 @@ All five issues were in Waiting for Support status, unassigned, with SLA timers 
 
 **Internal note added:**
 
-> High priority — Outlook sync failure. User has limited workaround (web browser OWA). SLA target: Apr 17 01:11 PM. Will action after P1 SUP-7.
+> High priority - Outlook sync failure. User has limited workaround (web browser OWA). SLA target: Apr 17 01:11 PM. Will action after P1 SUP-7.
 
 **Status:** Waiting for Support — scheduled for mid-morning.
 
@@ -73,7 +73,7 @@ All five issues were in Waiting for Support status, unassigned, with SLA timers 
 
 ---
 
-## SUP-9 — Printer Offline
+## SUP-9 - Printer Offline
 
 **Priority:** Medium
 **Status:** Waiting for Support
@@ -94,7 +94,7 @@ All five issues were in Waiting for Support status, unassigned, with SLA timers 
 
 ---
 
-## SUP-10 — Software Installation Request
+## SUP-10 - Software Installation Request
 
 **Priority:** Medium
 **Status:** Waiting for customer
@@ -119,7 +119,7 @@ All five issues were in Waiting for Support status, unassigned, with SLA timers 
 
 ---
 
-## SUP-11 — Password Reset Request
+## SUP-11 - Password Reset Request
 
 **Priority:** Low
 **Status:** Resolved
@@ -158,14 +158,14 @@ Opened SUP-11. Confirmed the user's identity via employee ID before performing t
 
 **Actions outstanding at session end:**
 
-SUP-7: Investigation continues — update due before Apr 16 09:09 AM.
+SUP-7: Investigation continues - update due before Apr 16 09:09 AM.
 
-SUP-8: Action mid-morning — Outlook profile and credential review.
+SUP-8: Action mid-morning - Outlook profile and credential review.
 
-SUP-9: Action afternoon — print server and printer IP check.
+SUP-9: Action afternoon - print server and printer IP check.
 
 SUP-10: Chase user if no reply by 17:00 today.
 
 **Documented by:**
 Nnamso Mkpong
-IT Support Portfolio — Jira Service Management Lab Series
+IT Support Portfolio - Jira Service Management Lab Series
