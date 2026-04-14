@@ -197,13 +197,13 @@ Change the Problem record status to Under review. Assign to Nnamso Mkpong and co
 
 The escalation decision was made after completing three first-line diagnostic checks that eliminated individual causes and pointed to infrastructure:
 
-**Check 1 — Active Directory accounts:** All three users confirmed healthy in AD. No account lockouts or authentication issues. This eliminates individual authentication failure as the cause.
+**Check 1 - Active Directory accounts:** All three users confirmed healthy in AD. No account lockouts or authentication issues. This eliminates individual authentication failure as the cause.
 
-**Check 2 — DHCP server:** DHCP server leases reviewed for other floors — normal activity confirmed. DHCP leases are failing only for floor 2 devices. This eliminates a server-side DHCP failure and narrows the fault to the floor 2 network segment.
+**Check 2 - DHCP server:** DHCP server leases reviewed for other floors - normal activity confirmed. DHCP leases are failing only for floor 2 devices. This eliminates a server-side DHCP failure and narrows the fault to the floor 2 network segment.
 
-**Check 3 — Direct cable test:** Connecting one device directly via Ethernet cable bypassed the wireless access point and confirmed full network connectivity. This confirms the wired infrastructure is healthy and the fault is specific to the wireless access point serving floor 2.
+**Check 3 - Direct cable test:** Connecting one device directly via Ethernet cable bypassed the wireless access point and confirmed full network connectivity. This confirms the wired infrastructure is healthy and the fault is specific to the wireless access point serving floor 2.
 
-After these three checks, the access point at 192.168.2.1 is the only remaining candidate. The access point admin page is not loading — which is consistent with either a hardware failure or a configuration change that isolated the management interface. Neither of these is within first-line scope. Escalation to the network team is the correct next action.
+After these three checks, the access point at 192.168.2.1 is the only remaining candidate. The access point admin page is not loading which is consistent with either a hardware failure or a configuration change that isolated the management interface. Neither of these is within first-line scope. Escalation to the network team is the correct next action.
 
 ---
 
@@ -211,9 +211,9 @@ After these three checks, the access point at 192.168.2.1 is the only remaining 
 
 > **Recognising a pattern and raising a Problem record is faster than solving three tickets individually.**
 
-If SUP1-1, SUP1-2, and SUP1-3 had been worked independently, each analyst would have performed the same AD check, the same DHCP check, and the same cable test three times — wasting three sets of investigation effort on the same fault. By raising a Problem record after the first two tickets, all three investigation threads are consolidated into one record with one escalation.
+If SUP1-1, SUP1-2, and SUP1-3 had been worked independently, each analyst would have performed the same AD check, the same DHCP check, and the same cable test three times -wasting three sets of investigation effort on the same fault. By raising a Problem record after the first two tickets, all three investigation threads are consolidated into one record with one escalation.
 
-This is also better for SLA management. Three individual High priority incidents with separate SLA clocks are harder to track than one Problem record that coordinates the response to all three. When the network team resolves the AP fault, all three incidents can be resolved simultaneously with a single update — protecting SLA compliance for all three users at once.
+This is also better for SLA management. Three individual High priority incidents with separate SLA clocks are harder to track than one Problem record that coordinates the response to all three. When the network team resolves the AP fault, all three incidents can be resolved simultaneously with a single update protecting SLA compliance for all three users at once.
 
 ---
 
@@ -249,7 +249,7 @@ See `TICKET-SUP1-4-wifi-problem.md` and `TICKET-INCIDENT-CLUSTER.md` in this fol
 
 3. **A handover note must contain three elements: scope, evidence, and completed steps.** Scope tells the receiving team how many users and what the impact is. Evidence tells them what the suspected root cause is. Completed steps tell them what has already been ruled out so they do not duplicate investigation. All three are required for a handover that enables continuation without a briefing.
 
-4. **A Problem record is closed when the root cause is fixed, not when the service is restored.** Restoring service via a workaround (such as moving users to a different access point) resolves the incidents. It does not close the Problem — the root cause of the original AP failure still needs to be identified and corrected to prevent recurrence.
+4. **A Problem record is closed when the root cause is fixed, not when the service is restored.** Restoring service via a workaround (such as moving users to a different access point) resolves the incidents. It does not close the Problem - the root cause of the original AP failure still needs to be identified and corrected to prevent recurrence.
 
 5. **Jira issue linking transforms a queue of individual tickets into a structured investigation.** Without linking, SUP1-1, SUP1-2, and SUP1-3 look like three unrelated tickets. With linking, they become a cluster that points to a single root cause. The linking is the difference between a reactive queue and an investigation record.
 
@@ -257,9 +257,9 @@ See `TICKET-SUP1-4-wifi-problem.md` and `TICKET-INCIDENT-CLUSTER.md` in this fol
 
 ## Real World Relevance
 
-Problem management is a core ITIL discipline that separates reactive support from proactive service management. In organisations that take ITIL seriously — financial services, healthcare, large enterprise — the ability to identify incident patterns, raise Problem records, and manage escalations through structured handover notes is a valued skill that distinguishes analysts who are ready for progression beyond first line.
+Problem management is a core ITIL discipline that separates reactive support from proactive service management. In organisations that take ITIL seriously - financial services, healthcare, large enterprise - the ability to identify incident patterns, raise Problem records, and manage escalations through structured handover notes is a valued skill that distinguishes analysts who are ready for progression beyond first line.
 
-In Jira Service Management specifically, the issue linking feature is one of the most commonly used but least understood features at first-line level. Analysts who can confidently raise a Problem, link three incidents to it, write a structured internal investigation, and escalate with a complete handover note are demonstrating second-line thinking while working from a first-line queue — which is exactly the profile that team leads look for when evaluating progression candidates.
+In Jira Service Management specifically, the issue linking feature is one of the most commonly used but least understood features at first-line level. Analysts who can confidently raise a Problem, link three incidents to it, write a structured internal investigation, and escalate with a complete handover note are demonstrating second-line thinking while working from a first-line queue  which is exactly the profile that team leads look for when evaluating progression candidates.
 
 ---
 
