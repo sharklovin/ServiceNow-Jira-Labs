@@ -43,7 +43,7 @@ Three separate incident tickets arrived between 08:30 and 09:00 on 14 April 2026
 
 **Linked work items:**
 
-Is caused by SUP1-4 - Potential Wi-Fi infrastructure fault — floor 2 multiple users affected (Open)
+Is caused by SUP1-4 - Potential Wi-Fi infrastructure fault - floor 2 multiple users affected (Open)
 
 **First response sent:**
 
