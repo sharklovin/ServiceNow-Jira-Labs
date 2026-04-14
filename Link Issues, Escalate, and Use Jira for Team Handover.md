@@ -227,8 +227,8 @@ See `TICKET-SUP1-4-wifi-problem.md` and `TICKET-INCIDENT-CLUSTER.md` in this fol
 
 | Check | Result |
 |---|---|
-| Three incidents created — SUP1-1, SUP1-2, SUP1-3 | Pass |
-| Problem record created — SUP1-4 type: Investigate a problem | Pass |
+| Three incidents created - SUP1-1, SUP1-2, SUP1-3 | Pass |
+| Problem record created - SUP1-4 type: Investigate a problem | Pass |
 | SUP1-1 linked to SUP1-4 with is caused by relationship | Pass |
 | SUP1-2 linked to SUP1-4 with is caused by relationship | Pass |
 | SUP1-3 linked to SUP1-4 with is caused by relationship | Pass |
