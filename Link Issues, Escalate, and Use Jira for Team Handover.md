@@ -1,4 +1,4 @@
-<img width="706" height="506" alt="04 sup 3  linked to problem" src="https://github.com/user-attachments/assets/253d0bdf-1293-4c2e-b559-1e3268369f4c" /><img width="735" height="508" alt="03 sup 1 linked to problem" src="https://github.com/user-attachments/assets/33a2a8d4-538d-4e8c-947f-dc899dc9fb98" /><img width="1127" height="448" alt="01 3 incidents created" src="https://github.com/user-attachments/assets/282e9593-ee97-475b-a291-178100f59d09" /># Link Issues, Escalate, and Use Jira for Team Handover
+# Link Issues, Escalate, and Use Jira for Team Handover
 
 > **Author:** Nnamso Mkpong
 >
