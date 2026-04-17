@@ -148,7 +148,8 @@ Open each sub-task individually. Assign it to the relevant person. Change the st
 
 Move all five sub-tasks to Work in Progress and assign each one. The parent issue progress bar updates automatically as each sub-task status changes.
 
-<img width="702" height="291" alt="07 subtask completed" src="https://github.com/user-attachments/assets/1ad35397-4529-4692-b979-3534ea754655" />
+<img width="701" height="533" alt="05 all subtasks  in progress" src="https://github.com/user-attachments/assets/d5ed0262-1939-40fb-9802-2bde0b6325a6" />
+
 
 
 > **Highlighted:** The box covers all five sub-tasks. Every one shows WORK IN PROGRESS in the status column. Every one is assigned to Nnamso Mkpong. The progress bar still reads 0% Done because no sub-tasks have been closed yet - Work in Progress updates the status but does not move the progress bar. Only moving a sub-task to Done increments the percentage.
