@@ -136,7 +136,8 @@ The start date is Monday April 14. The due date on the parent issue is set to Fr
 
 Open each sub-task individually. Assign it to the relevant person. Change the status from Open to Work in Progress. This signals to everyone looking at the queue that work is actively underway on this ticket.
 
-<img width="701" height="533" alt="05 all subtasks  in progress" src="https://github.com/user-attachments/assets/20010e04-51f2-4ac8-9ad0-60f9e2a21ab3" />
+<img width="1130" height="593" alt="04 subtask work in progress" src="https://github.com/user-attachments/assets/b9b9fd0a-3f26-4117-af02-54db0f263af6" />
+
 
 
 > SUP1-9 is now Work in Progress. Assignee is Nnamso Mkpong. The breadcrumb at the top confirms the hierarchy: Support-1 / SUP1-8 / SUP1-9. This sub-task sits under the parent onboarding issue and its status is tracked separately from the parent.
