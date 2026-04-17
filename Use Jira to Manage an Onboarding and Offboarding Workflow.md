@@ -86,7 +86,8 @@ Title used:
 Description:
 > HR request for onboarding. Provision full access before start date.
 
-<img width="1099" height="233" alt="Onboarding ticket SUP1-8 visible in the All Open queue" src="screenshots/01_onboarding_ticket_queue.png" />
+<img width="1105" height="319" alt="01 Onboarding Ticket Queue" src="https://github.com/user-attachments/assets/f0fd007c-fc70-4934-978f-678f8bf8e675" />
+
 
 > **Highlighted:** The blue box marks SUP1-8 in the queue. Status is Open. Reporter is Nnamso Mkpong. Assignee is Unassigned at this point because individual sub-tasks will carry the assignees once the work is broken down. Created 17/Apr/26.
 
@@ -108,9 +109,10 @@ Sub-tasks created:
 | SUP1-12 | Build and configure laptop (WIN11-CB-01) | Open |
 | SUP1-13 | Send welcome email with first-day instructions | Open |
 
-<img width="688" height="534" alt="All five onboarding sub-tasks created under SUP1-8, all showing Open status" src="screenshots/02_onboarding_subtasks_created.png" />
+<img width="682" height="596" alt="02onboarding  subtasks queue" src="https://github.com/user-attachments/assets/f5c3516c-b370-4bcd-92b3-8d9fb9bd2f28" />
 
-> **Highlighted:** The orange box covers all five sub-tasks. The progress bar at the top of the Subtasks section shows 0% Done. Every sub-task is Open and Unassigned at this stage. The order matters: AD account must exist before M365 can be configured, the security group requires the AD account, and the laptop and welcome email can only be sent once everything else is in place.
+
+> **Highlighted:** The brown box covers all five sub-tasks. The progress bar at the top of the Subtasks section shows 0% Done. Every sub-task is Open and Unassigned at this stage. The order matters: AD account must exist before M365 can be configured, the security group requires the AD account, and the laptop and welcome email can only be sent once everything else is in place.
 
 ---
 
@@ -120,7 +122,8 @@ Sub-tasks created:
 
 The start date is Monday April 14. The due date on the parent issue is set to Friday April 11 to give a three-day buffer for any issues discovered during provisioning. If provisioning hits a problem on Friday, there is still the weekend before Chiamaka arrives.
 
-<img width="1099" height="534" alt="Parent issue SUP1-8 with due date set to Apr 11 2026 visible in the details panel" src="screenshots/03_due_date_and_details.png" />
+<img width="1131" height="552" alt="03 due date details" src="https://github.com/user-attachments/assets/ac3c9eb7-6b5b-4f01-a1f8-9bbc6b77bb51" />
+
 
 > Due date confirmed as Apr 11, 2026. Priority is Medium. Assignee is Unassigned at parent level. Reporter is Nnamso Mkpong. The due date is on the parent issue because that is the deadline for the whole provisioning workflow - individual sub-tasks should all be done before that date.
 
@@ -132,7 +135,8 @@ The start date is Monday April 14. The due date on the parent issue is set to Fr
 
 Open each sub-task individually. Assign it to the relevant person. Change the status from Open to Work in Progress. This signals to everyone looking at the queue that work is actively underway on this ticket.
 
-<img width="1099" height="534" alt="Sub-task SUP1-9 Create Active Directory account showing Work in Progress status and Nnamso Mkpong as assignee" src="screenshots/04_subtask_work_in_progress.png" />
+<img width="701" height="533" alt="05 all subtasks  in progress" src="https://github.com/user-attachments/assets/20010e04-51f2-4ac8-9ad0-60f9e2a21ab3" />
+
 
 > SUP1-9 is now Work in Progress. Assignee is Nnamso Mkpong. The breadcrumb at the top confirms the hierarchy: Support-1 / SUP1-8 / SUP1-9. This sub-task sits under the parent onboarding issue and its status is tracked separately from the parent.
 
@@ -142,9 +146,10 @@ Open each sub-task individually. Assign it to the relevant person. Change the st
 
 Move all five sub-tasks to Work in Progress and assign each one. The parent issue progress bar updates automatically as each sub-task status changes.
 
-<img width="688" height="534" alt="All five onboarding sub-tasks showing Work in Progress status with Nnamso Mkpong assigned to each" src="screenshots/05_all_subtasks_in_progress.png" />
+<img width="702" height="291" alt="07 subtask completed" src="https://github.com/user-attachments/assets/1ad35397-4529-4692-b979-3534ea754655" />
 
-> **Highlighted:** The blue box covers all five sub-tasks. Every one shows WORK IN PROGRESS in the status column. Every one is assigned to Nnamso Mkpong. The progress bar still reads 0% Done because no sub-tasks have been closed yet - Work in Progress updates the status but does not move the progress bar. Only moving a sub-task to Done increments the percentage.
+
+> **Highlighted:** The box covers all five sub-tasks. Every one shows WORK IN PROGRESS in the status column. Every one is assigned to Nnamso Mkpong. The progress bar still reads 0% Done because no sub-tasks have been closed yet - Work in Progress updates the status but does not move the progress bar. Only moving a sub-task to Done increments the percentage.
 
 ---
 
@@ -181,7 +186,8 @@ Once all five sub-tasks have been completed and noted, the parent issue shows 10
 
 Open the parent issue SUP1-8. Change the status to Done. The parent issue now shows the Done badge and the full sub-task list with 100% completion, all assigned, all with completion notes.
 
-<img width="1099" height="575" alt="SUP1-8 parent onboarding issue showing Done status, 100% subtask completion, and due date of Apr 11 2026" src="screenshots/08_onboarding_parent_done.png" />
+<img width="1153" height="593" alt="08 parent issue done" src="https://github.com/user-attachments/assets/9ede7a3f-eef9-47ab-8218-397ec27aabaf" />
+
 
 > Parent issue SUP1-8 is Done. Due date was Apr 11, 2026. All five sub-tasks are Done. Reporter is Nnamso Mkpong. The ticket is now a complete auditable record of the Chiamaka Bello onboarding - every step, every assignee, every completion note is captured under one parent issue key.
 
@@ -199,7 +205,8 @@ Title used:
 Description:
 > HR request for urgent offboarding. Remove all access immediately.
 
-<img width="1099" height="233" alt="Offboarding ticket SUP1-15 visible in the All Open queue with Open status" src="screenshots/09_offboarding_ticket_queue.png" />
+<img width="1140" height="307" alt="09 offboarding issue created" src="https://github.com/user-attachments/assets/e542bcfe-c22c-4d0d-aeb3-0f9103dba241" />
+
 
 > SUP1-15 appears in the queue as a separate ticket from the onboarding work. Status is Open. Reporter is Nnamso Mkpong. This ticket must be completed today - James Okafor's last day. Unlike the onboarding which had a three-day buffer, this has a hard end-of-business deadline with no flexibility.
 
@@ -221,7 +228,8 @@ Sub-tasks created:
 | SUP1-24 | Retrieve laptop and wipe device | Highest |
 | SUP1-25 | Confirm no active sessions (VPN, remote desktop) | Highest |
 
-<img width="688" height="534" alt="All five offboarding sub-tasks created under SUP1-15, all Open and Unassigned with Medium priority" src="screenshots/10_offboarding_subtasks_created.png" />
+<img width="699" height="542" alt="10 offboarding ticket queue" src="https://github.com/user-attachments/assets/867be4ad-e5f7-4c62-8393-0de8e0fb82f0" />
+
 
 > Five sub-tasks created under SUP1-15. All are Open. Progress bar reads 0% Done. The task names mirror the onboarding steps in reverse: what was created is disabled, what was assigned is revoked, what was added is removed, what was built is wiped.
 
@@ -229,11 +237,13 @@ Sub-tasks created:
 
 ### Phase 10 - Set Due Date to Today and Escalate Priority
 
-**Step 10.1 - Add Today as the Due Date and Mark All Sub-tasks as Highest Priority**
+**Step 10.1 - Add Today as the Due Date and Mark All Sub-tasks as Highest Pr![Uploading 11 done.png…]()
+iority**
 
 Set the due date on the parent issue to today, April 17. Change the priority on all five sub-tasks from Medium to Highest. This ensures the offboarding tasks surface at the top of any filtered view and no one treating them as routine can miss the urgency.
 
-<img width="1099" height="534" alt="Offboarding issue SUP1-15 showing all sub-tasks Done with Highest priority and compliance note in description, due date April 17 2026" src="screenshots/11_offboarding_complete_with_note.png" />
+<img width="1132" height="584" alt="11 due date added to today" src="https://github.com/user-attachments/assets/8fd15079-da5d-42d2-82bd-34e3561df19e" />
+
 
 > **Red highlight:** The compliance note in the description field: "All access confirmed removed at 16:45. Device collected. No active sessions. HR notified." This note is on the parent issue, not a sub-task, because it is the summary confirmation for the whole offboarding - the equivalent of a sign-off. **Blue highlight:** The pinned Due date field in the right panel shows Apr 17, 2026. All five sub-tasks are Done with Highest priority assigned to Nnamso Mkpong.
 
@@ -245,7 +255,8 @@ Set the due date on the parent issue to today, April 17. Change the priority on 
 
 All five sub-tasks are Done. The compliance note is recorded on the parent issue. Change the status of SUP1-15 to Done.
 
-<img width="1099" height="534" alt="SUP1-15 offboarding parent issue showing Done status, all sub-tasks Done at Highest priority, and compliance note in description" src="screenshots/12_offboarding_parent_done.png" />
+<img width="1137" height="592" alt="12 offboarding with note" src="https://github.com/user-attachments/assets/9e191847-b823-4543-bde0-b3a6312b3701" />
+
 
 > Parent issue SUP1-15 is Done. Due date was Apr 17, 2026 - today. All five sub-tasks show Done at Highest priority. The compliance note confirms the timestamp of access removal, device collection, and HR notification. This ticket can be presented to a security or compliance team as evidence that the offboarding was completed in full on the correct date.
 
