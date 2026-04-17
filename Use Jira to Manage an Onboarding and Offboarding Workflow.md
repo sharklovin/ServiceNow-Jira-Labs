@@ -165,7 +165,8 @@ Open SUP1-9. Complete the work. Add an internal note documenting exactly what wa
 Completion note added to SUP1-9:
 > AD account created. UPN: c.bello@company.com. Groups: LegalUsers, AllStaff
 
-<img width="1069" height="555" alt="06 subtask done with note" src="https://github.com/user-attachments/assets/2ecb17c1-55a2-4e51-be7d-9cb53090a157" />
+<img width="1069" height="555" alt="06 subtask done with note" src="https://github.com/user-attachments/assets/98c91315-92f0-43d2-a153-bae4b26bdd95" />
+
 
 
 > **Green highlight:** The Done status badge in the top right confirms this sub-task is closed. **Orange highlight:** The internal note at the bottom of the activity section contains the completion detail. The note records the UPN and group memberships so there is a permanent record of exactly what was configured. If c.bello@company.com cannot log in on Monday morning, this note is the first place to check.
