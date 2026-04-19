@@ -1,4 +1,4 @@
-<img width="376" height="437" alt="06 pie chat status configuration " src="https://github.com/user-attachments/assets/126af4b4-ddf9-4456-8ee0-cc5e1cf88278" /># Use Jira Dashboards and Filters to Demonstrate Service Desk Performance
+# Use Jira Dashboards and Filters to Demonstrate Service Desk Performance
 
 > **Author:** Nnamso Mkpong
 >
