@@ -86,7 +86,8 @@ In this lab, Impact was set to 3 - Low (one user affected) and Urgency was set t
 
 Register at developer.servicenow.com and request a free Personal Developer Instance. Once provisioned, log in using the admin credentials provided in the registration email. The instance URL follows the format dev[number].service-now.com.
 
-<img width="1366" height="695" alt="ServiceNow PDI dashboard showing the Studio landing page and user profile menu open" src="screenshots/01_servicenow_pdi_dashboard.png" />
+<img width="1359" height="717" alt="01 SERVICE NOW PDI DAsh board" src="https://github.com/user-attachments/assets/0873f854-5078-4dbc-813b-f45a444cc40d" />
+
 
 > **Red highlight:** The address bar shows the PDI instance URL - dev294020.service-now.com. This is your unique instance. No one else shares it. Every record, workflow, and configuration change you make here is isolated to this instance.
 >
@@ -100,11 +101,11 @@ Register at developer.servicenow.com and request a free Personal Developer Insta
 
 Click All in the top navigation bar. Navigate to Service Desk then Incidents. The incident list view opens showing all active incidents in the system. Observe the columns: Number, Opened, Short description, Caller, Priority, State, Category, Assignment group, Assigned to, Updated, Updated by.
 
-<img width="1366" height="605" alt="ServiceNow incident list view showing 40 active incidents with columns and filter bar" src="screenshots/02_incident_list_view.png" />
+<img width="1363" height="634" alt="02 incident view list" src="https://github.com/user-attachments/assets/c17bb46c-3bf2-4e8e-a39e-5ff498c13ecf" />
+
 
 > **Green highlight:** The New button in the top right of the list creates a new incident. This is how every ticket starts.
 >
-> **Red highlight:** INC0009005 shows Priority 1 - Critical for an "Email server is down" incident. This is the difference between a single-user Outlook issue and a whole-organisation outage. The same category (Software) can produce very different priorities depending on how many people are affected.
 >
 > The list shows 40 incidents, 1 to 20 of 40. ServiceNow paginates by default. The filter bar at the top and the column headers are both clickable - you can sort by any column or add filters to narrow the list.
 
@@ -116,7 +117,8 @@ Click All in the top navigation bar. Navigate to Service Desk then Incidents. Th
 
 Click the New button. A blank incident form opens. The system has already assigned an INC number - INC0010002. This number is reserved the moment the form opens. If you close without saving, the number is released and reassigned to the next ticket.
 
-<img width="1366" height="655" alt="Blank ServiceNow incident form for INC0010002 with all fields empty and default values" src="screenshots/03_blank_incident_form.png" />
+<img width="1349" height="682" alt="03 blank incidient form" src="https://github.com/user-attachments/assets/ac48c392-4bca-487d-a6d6-09764ae74892" />
+
 
 > **Red highlight:** The Caller field and Short description field both show a red asterisk. These are the two minimum required fields. ServiceNow will not let you submit without them.
 >
@@ -145,7 +147,8 @@ Fields completed:
 | **Priority** | 3 - Moderate | System calculated from Impact 3 + Urgency 1 |
 | **Short description** | Outlook will not open after this morning update | Specific and searchable - includes the cause context |
 
-<img width="1366" height="480" alt="Completed incident form INC0010002 with all fields filled in and Priority showing 3 Moderate" src="screenshots/04_completed_incident_form.png" />
+<img width="1359" height="493" alt="04 completed incident form" src="https://github.com/user-attachments/assets/41856909-3154-43bc-a927-da62e434e8b3" />
+
 
 > **Green highlights:** Caller (Abel Tuter), Category/Subcategory (Software/Email), and Assignment Group (Service Desk) are all set. These three fields together determine where the ticket goes and who works it.
 >
@@ -161,7 +164,8 @@ Fields completed:
 
 Click Submit to save the incident. ServiceNow saves the record and returns you to the incident list. INC0010002 appears at the top of the list with all fields correctly populated.
 
-<img width="1366" height="295" alt="Incident list showing INC0010002 saved with correct fields - Software category, Service Desk assignment group, Priority 3 Moderate, State New" src="screenshots/05_incident_saved_in_queue.png" />
+<img width="1361" height="226" alt="05 incident saved in queue" src="https://github.com/user-attachments/assets/f103187e-b346-494d-8997-109e87d032de" />
+
 
 > **Green highlight:** INC0010002 is visible in the list. Every field shows correctly: Opened 2026-04-18 07:45:58, Short description "Outlook will not open after this morning update", Caller Abel Tuter, Priority 3 - Moderate, State New, Category Software, Assignment group Service Desk. The ticket is in the system and routable.
 >
@@ -175,7 +179,8 @@ Click Submit to save the incident. ServiceNow saves the record and returns you t
 
 In the incident list, use the Number column filter to search for INC0010002. The filter applies and the view narrows to a single result. The breadcrumb at the top confirms the active filter: All > Active = true > Number = INC0010002.
 
-<img width="1366" height="295" alt="Incident list filtered to INC0010002 showing In Progress state after status update" src="screenshots/06_incident_search_result.png" />
+<img width="1362" height="302" alt="06 Incident search result" src="https://github.com/user-attachments/assets/fa133b2e-2797-4624-af67-6739016721bc" />
+
 
 > **Orange highlight:** The breadcrumb filter shows the active search criteria. Number = INC0010002. This is one of two ways to find a specific ticket - column filter or the top search bar. The column filter stays within the incident module. The top search bar searches across all record types.
 >
@@ -192,7 +197,8 @@ Open INC0010002. Change State from New to In Progress. In the Activity section a
 Work note added:
 > Investigation started. Checking Outlook logs and update history.
 
-<img width="1097" height="530" alt="Activity log for INC0010002 showing two work notes and the state change audit trail entry" src="screenshots/07_activity_log_in_progress.png" />
+<img width="1117" height="424" alt="07 activity log in progress" src="https://github.com/user-attachments/assets/14361f3f-b941-4634-912c-45d87f05c6a1" />
+
 
 > **Green highlight:** The most recent work note reads "Investigation started. Checking Outlook logs and update history." timestamped 2026-04-18 07:58:07. This is the active investigation note - it tells anyone who picks up this ticket exactly where the investigation is.
 >
