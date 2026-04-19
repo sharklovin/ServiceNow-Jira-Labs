@@ -94,7 +94,8 @@ Click Dashboards in the top navigation bar. Click Create dashboard. The Create d
 | **Viewers** | Private | Only you can see it during setup - share after it is complete and validated |
 | **Editors** | Private | Same reason - restrict edit access until the dashboard is production-ready |
 
-<img width="450" height="520" alt="Create dashboard dialog with name Weekly Service Desk Review and Private access settings" src="screenshots/01_create_dashboard_dialog.png" />
+<img width="475" height="422" alt="01 creating dashboard dialog" src="https://github.com/user-attachments/assets/02b00a44-77b9-487a-b6ff-0da9678f2bfe" />
+
 
 > **Blue highlight:** The Name field is required and pre-filled with the dashboard name. This is what appears in the Dashboards menu for every user with access.
 >
@@ -108,7 +109,7 @@ Click Dashboards in the top navigation bar. Click Create dashboard. The Create d
 
 Click Add gadget on the empty dashboard. Search for Pie Chart and add it. In the gadget configuration, set the Project or Saved Filter to Support-1 and the Statistic Type to Priority. Enable Auto refresh every 15 minutes so the chart updates throughout the day without a manual page refresh.
 
-<img width="410" height="580" alt="Pie Chart gadget configuration showing Support-1 as source and Priority as Statistic Type" src="screenshots/02_pie_chart_priority_config.png" />
+<img width="393" height="577" alt="02 pie chart priority config" src="https://github.com/user-attachments/assets/bbac1f5d-6d4d-4f42-a692-e3c806522cab" />
 
 > **Green highlight:** The project source is set to Support-1. This scopes the chart to the service desk project only. A chart sourced from All projects would include issues from other project types and would make the priority distribution meaningless.
 >
@@ -131,7 +132,8 @@ Add the Created vs Resolved Chart gadget. Configure it to show the last 7 days a
 | **Display Trend of Unresolved** | No | Keeps the chart clean - unresolved trend is shown in the status pie chart gadget |
 | **Auto refresh** | Every 15 minutes | Keeps the data current during the stand-up |
 
-<img width="410" height="640" alt="Created vs Resolved Chart configuration showing Daily period, 7 days previously, and Count collection operation" src="screenshots/03_created_vs_resolved_config.png" />
+<img width="368" height="579" alt="03 created vs resolved config" src="https://github.com/user-attachments/assets/e03af8c8-22dd-414e-89ad-d2a60312e779" />
+
 
 > **Blue highlight:** Period set to Daily and Days Previously set to 7. These two settings together define the time window. Daily granularity is the right choice for a weekly stand-up - it shows which specific day had high volume rather than blending the week into a single bar.
 >
@@ -150,7 +152,8 @@ JQL used:
 project = "Support-1" AND priority in (Highest, High) AND status != Done ORDER BY created ASC
 ```
 
-<img width="1120" height="225" alt="Saved filters list showing Filter for SUP, Filter for SUP1, and Open High Priority Issues with star" src="screenshots/04_saved_filters_list.png" />
+<img width="1141" height="272" alt="04 saved filter list" src="https://github.com/user-attachments/assets/432f400e-f853-41ea-99b5-f33a2471ca18" />
+
 
 > **Blue highlight:** Three saved filters are present. Each one serves a specific purpose: Filter for SUP scopes to the SUP project key, Filter for SUP1 scopes to Support-1 with All roles visibility, and Open High Priority Issues is the filter used in the Filter Results gadget.
 >
