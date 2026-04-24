@@ -329,5 +329,5 @@ Every organisation running Microsoft 365, Azure, or any cloud platform is one mi
 
 ---
 
-*Lab 15 of 15 - Jira Service Management Series*
+*Jira Service Management Series*
 *IT Support Portfolio - Nnamso Mkpong*
