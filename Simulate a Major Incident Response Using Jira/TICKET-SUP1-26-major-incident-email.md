@@ -1,5 +1,5 @@
-# TICKET NOTE — SUP1-26
-## MAJOR INCIDENT — Email Service Down — All 300 Users Affected — 09:15
+# TICKET NOTE - SUP1-26
+## MAJOR INCIDENT - Email Service Down - All 300 Users Affected - 09:15
 
 ---
 
@@ -10,8 +10,8 @@
 **Reporter:** Nnamso Mkpong
 **Assignee:** Nnamso Mkpong (Incident Coordinator)
 **Project:** Support-1
-**Created:** 23 April 2026 — 09:15
-**Resolved:** 23 April 2026 — 10:15
+**Created:** 23 April 2026 - 09:15
+**Resolved:** 23 April 2026 - 10:15
 **Total Downtime:** 45 minutes
 
 ---
@@ -20,11 +20,11 @@
 
 | Field | Detail |
 |---|---|
-| Users Affected | 300 — all users in the organisation |
+| Users Affected | 300 - all users in the organisation |
 | Services Affected | Microsoft 365 email (Exchange Online) |
 | Business Impact | No user could send or receive email |
 | Secondary Impact | Pending communications, delayed workflows, client-facing disruption |
-| Incident Category | Identity and Access — Conditional Access Policy Fault |
+| Incident Category | Identity and Access - Conditional Access Policy Fault |
 | Root Cause Type | Administrative change without validation or staged rollout |
 
 ---
@@ -35,19 +35,19 @@
 |---|---|---|
 | Incident Coordinator | Nnamso Mkpong | Jira ticket management, customer communication, PIR |
 | Infrastructure Lead | Maria | Azure AD audit, policy revert |
-| Microsoft Escalation | Support ticket raised | Standby — not required after root cause identified |
+| Microsoft Escalation | Support ticket raised | Standby - not required after root cause identified |
 
 ---
 
 ## Chronological Ticket Log
 
-### 09:15 — Incident Raised
+### 09:15 - Incident Raised
 
-Ticket SUP1-26 created as Priority: Critical. Title: MAJOR INCIDENT — Email Service Down — All 300 Users Affected — 09:15. SLA clock started. Issue unassigned on creation pending coordinator confirmation.
+Ticket SUP1-26 created as Priority: Critical. Title: MAJOR INCIDENT - Email Service Down - All 300 Users Affected - 09:15. SLA clock started. Issue unassigned on creation pending coordinator confirmation.
 
 ---
 
-### 09:20 — Initial Situation Report (Internal Note)
+### 09:20 - Initial Situation Report (Internal Note)
 
 > Email service offline for all users since approximately 09:15. Microsoft 365 status page shows no outage. Initial user reports indicate inability to send or receive emails. Issue may be DNS or MX record related.
 >
@@ -56,22 +56,21 @@ Ticket SUP1-26 created as Priority: Critical. Title: MAJOR INCIDENT — Email Se
 > - Microsoft Escalation: Support ticket raised
 > - Service Desk Coordinator: Nnamso Mkpong
 
-**Screenshot reference:** 02_initial_sitrep_internal_note.png
+
 
 ---
 
-### 09:22 — First Customer Communication (Customer Visible)
+### 09:22 - First Customer Communication (Customer Visible)
 
 > We are aware of an issue affecting email service for all users. Our team is investigating urgently. Next update will be provided within 30 minutes.
 
 **Communication type:** Customer visible reply
-**Screenshot reference:** 03_first_customer_communication.png
 
 ---
 
-### 09:30 — Timeline Update: DNS Ruled Out (Internal Note)
+### 09:30 - Timeline Update: DNS Ruled Out (Internal Note)
 
-> 09:30 — DNS records checked. MX record intact. Exchange Online admin centre shows service healthy. Suspect tenant authentication issue. Checking Azure AD sign-in logs.
+> 09:30 - DNS records checked. MX record intact. Exchange Online admin centre shows service healthy. Suspect tenant authentication issue. Checking Azure AD sign-in logs.
 
 **Diagnostic steps completed at this stage:**
 - Microsoft 365 status page: No outage
@@ -80,30 +79,30 @@ Ticket SUP1-26 created as Priority: Critical. Title: MAJOR INCIDENT — Email Se
 - Exchange Online admin centre: Service reported healthy
 - Next step: Azure AD sign-in log review
 
-**Screenshot reference:** 04_timeline_0930_dns_checked.png
+
 
 ---
 
-### 09:45 — Timeline Update: Root Cause Identified (Internal Note)
+### 09:45 - Timeline Update: Root Cause Identified (Internal Note)
 
-> 09:45 — Azure AD logs indicate a bulk conditional access policy change applied at 09:10 by an admin account. Policy is blocking Exchange Online access for all users. Reverting the policy now.
+> 09:45 - Azure AD logs indicate a bulk conditional access policy change applied at 09:10 by an admin account. Policy is blocking Exchange Online access for all users. Reverting the policy now.
 
 **Root cause confirmed:** Conditional access policy change at 09:10 blocked all Exchange Online access tenant-wide.
 **Action in progress:** Infrastructure Lead Maria reverting the policy change.
 
-**Screenshot reference:** 05_timeline_0945_root_cause_found.png
+
 
 ---
 
-### 10:00 — Timeline Update: Service Restored (Internal Note)
+### 10:00 - Timeline Update: Service Restored (Internal Note)
 
-> 10:00 — Conditional access policy reverted. Email service restored. User confirmation in progress.
+> 10:00 - Conditional access policy reverted. Email service restored. User confirmation in progress.
 
-**Screenshot reference:** 06_timeline_1000_policy_reverted.png
+
 
 ---
 
-### 10:05 — Second Customer Communication (Customer Visible)
+### 10:05 - Second Customer Communication (Customer Visible)
 
 > Email service has been restored as of 10:00. If you are still experiencing issues:
 > - Restart Outlook
@@ -112,11 +111,11 @@ Ticket SUP1-26 created as Priority: Critical. Title: MAJOR INCIDENT — Email Se
 > Please raise a new ticket if the issue persists.
 
 **Communication type:** Customer visible reply
-**Screenshot reference:** 07_service_restored_customer_update.png
+
 
 ---
 
-### 10:15 — Incident Resolved (Internal Note + Status Change)
+### 10:15 - Incident Resolved (Internal Note + Status Change)
 
 **Status changed to:** Completed
 
@@ -126,7 +125,6 @@ Ticket SUP1-26 created as Priority: Critical. Title: MAJOR INCIDENT — Email Se
 > Service restored: 10:00.
 > Total downtime: 45 minutes.
 
-**Screenshot reference:** 08_incident_resolved_sla_met.png
 
 ---
 
@@ -134,8 +132,8 @@ Ticket SUP1-26 created as Priority: Critical. Title: MAJOR INCIDENT — Email Se
 
 | SLA Metric | Target | Result | Status |
 |---|---|---|---|
-| Time to First Response | Within 6 hours | Met at 09:22 — 7 minutes | Passed |
-| Time to Resolution | Within 36 hours | Met at 10:15 — 60 minutes | Passed |
+| Time to First Response | Within 6 hours | Met at 09:22 - 7 minutes | Passed |
+| Time to Resolution | Within 36 hours | Met at 10:15 - 60 minutes | Passed |
 | Time to Close After Resolution | Within 60 hours | Met | Passed |
 | First Customer Communication | Within 30 minutes (self-committed) | Delivered at 09:22 | Met |
 
@@ -145,7 +143,7 @@ Ticket SUP1-26 created as Priority: Critical. Title: MAJOR INCIDENT — Email Se
 
 | Time | Type | Summary |
 |---|---|---|
-| 09:20 | Internal note | Initial sitrep — team assembled |
+| 09:20 | Internal note | Initial sitrep - team assembled |
 | 09:22 | Customer reply | First user communication |
 | 09:30 | Internal note | DNS and MX ruled out |
 | 09:45 | Internal note | Root cause identified in Azure AD |
@@ -165,7 +163,7 @@ Root cause: A conditional access policy was applied to the tenant at 09:10 by an
 
 | Key | Title | Relationship |
 |---|---|---|
-| PIR — April 2026 | PIR — Email Major Incident — April 2026 | Post-incident review linked |
+| PIR - April 2026 | PIR - Email Major Incident - April 2026 | Post-incident review linked |
 
 ---
 
@@ -173,4 +171,4 @@ Root cause: A conditional access policy was applied to the tenant at 09:10 by an
 
 Incident resolved and SLA met. Post-incident review opened and linked. Three action items raised with named owners and due dates. No secondary tickets received following the customer restoration update. Incident closed.
 
-**Coordinator sign-off:** Nnamso Mkpong — 23 April 2026 — 10:15
+**Coordinator sign-off:** Nnamso Mkpong - 23 April 2026 - 10:15
