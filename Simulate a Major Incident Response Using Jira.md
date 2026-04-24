@@ -1,4 +1,4 @@
-# Lab 15: Simulate a Major Incident Response Using Jira
+JIRA - Simulate a Major Incident Response Using Jira
 
 **Platform:** Jira Service Management
 **Priority:** Critical
