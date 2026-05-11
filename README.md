@@ -6,7 +6,7 @@
 
 ---
 
-This is my personal # Jira Service Management Lab portfolio. Each lab was built and documented by me as part of my preparation for help desk, service desk, and desktop support roles.
+This is my personal Jira Service Management Lab portfolio. Each lab was built and documented by me as part of my preparation for help desk, service desk, and desktop support roles.
 
 The repository contains 7 labs covering the skills that appear most consistently in IT support and Help desk job descriptions. Every lab folder holds three things: the full written walkthrough in README.md, a ticket note written in business style, and a screenshots folder with annotated evidence from the actual lab session.
 
