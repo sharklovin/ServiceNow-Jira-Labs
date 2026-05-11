@@ -1,49 +1,22 @@
 # Jira Service Management Labs
 
-## Overview
-This repository contains my hands on labs using Jira Service Management. The goal is to build practical experience in handling real service desk tasks such as ticket creation, queue management, escalation, onboarding workflows, reporting, and major incident coordination.
+**Author:** Nnamso Mkpong
 
-Each lab is based on a real world support scenario and shows how an analyst would work inside Jira from start to finish.
+**Last Updated:** April 2026
 
-## Labs Included
+---
 
-### Create and manage a support issue from customer request to resolution.  
-Focus on understanding the difference between the customer portal and agent view.
+This is my personal # Jira Service Management Lab portfolio. Each lab was built and documented by me as part of my preparation for help desk, service desk, and desktop support roles.
 
-### Work with queues, priorities, and SLA timers.  
-Focus on triaging issues and making decisions based on urgency and impact.
+The repository contains 7 labs covering the skills that appear most consistently in IT support and Help desk job descriptions. Every lab folder holds three things: the full written walkthrough in README.md, a ticket note written in business style, and a screenshots folder with annotated evidence from the actual lab session.
 
-### Link related issues and simulate escalation to another team.  
-Focus on writing clear handover notes and identifying problem level incidents.
+---
+## License
 
-### Customise a request form to capture better information from users.  
-Focus on improving first contact resolution and reducing back and forth.
+© 2026 Nnamso Mkpong. All rights reserved.
 
-### Manage onboarding and offboarding requests using sub tasks.  
-Focus on structured workflows and security awareness during access provisioning and removal.
+All written content in this repository including lab walkthroughs, ticket notes, and documentation is my original work produced from real lab sessions.
 
-### Build dashboards and use JQL to track service desk performance.  
-Focus on reporting, visibility, and decision making using data.
+You are welcome to read this repository and use it as a reference when building your own portfolio. You are not permitted to copy, republish, or repost my writeups, ticket notes, or documentation on any platform or under any other name without my explicit written permission. That includes uploading it to another GitHub account and presenting it as your own work.
 
-### Simulate a major incident affecting all users.  
-Focus on coordination, communication, timeline tracking, and post incident review.
-
-## Skills Developed
-Ticket management and lifecycle handling  
-Queue prioritisation and SLA awareness  
-Incident and problem management  
-Escalation and team collaboration  
-Workflow design and automation thinking  
-Reporting and dashboard creation  
-Major incident coordination  
-
-## Tools Used
-Jira Service Management  
-Customer Portal  
-Agent View  
-Dashboards and JQL  
-
-## Why This Matters
-Jira is widely used in tech companies and support teams. Knowing how to manage tickets, prioritise work, and communicate clearly during incidents is a core skill for any support analyst or cybersecurity professional.
-
-These labs reflect real situations and show how structured processes help teams respond faster, reduce downtime, and improve user experience.
+If you want to build a Jira Lab Portfolio, do the labs yourself and write your own documentation. The point of a portfolio is to show what you understand, not what someone else has written. Any experienced hiring manager will ask you about the content, and copied work falls apart the moment that conversation starts.
